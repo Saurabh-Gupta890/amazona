@@ -2,7 +2,9 @@ import express from "express";
 import data from "./data.js";
 
 const app = express(); //this express method will return an Object;
+import cors from "cors";
 
+app.use(cors());
 app.get("/api/products", (req, res) => {
   res.send(data.products);
 });
