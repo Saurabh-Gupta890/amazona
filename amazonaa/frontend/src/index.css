@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.site-container{
+.site-container {
   min-height: 100vh;
 }
 
@@ -15,8 +15,13 @@ code {
     monospace;
 }
 
-main{
-  flex:1;
+main {
+  flex: 1;
+}
+
+.btn-primary{
+  background-color: #f0c040;
+  color: black;
 }
 
 .products {
@@ -24,15 +29,17 @@ main{
   flex-wrap: wrap;
   justify-content: center;
 }
-
+.rating span {
+  color: #ffc000;
+}
 .product {
   border: 1px #404040 solid;
   margin: 1rem;
 }
 .product img {
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
 }
-.productInfo{
-  padding:1rem;
+.productInfo {
+  padding: 1rem;
 }
